@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: ab27e180bbd3835489aa2944ba0cb792
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5163048304156146241
+    second: peashooter_selector_background_0
+  - first:
+      213: 47457106568197624
+    second: peashooter_selector_background_1
+  - first:
+      213: -3435856363806694069
+    second: peashooter_selector_background_2
+  - first:
+      213: -7800636887286684493
+    second: peashooter_selector_background_3
+  - first:
+      213: -6275752066078686207
+    second: peashooter_selector_background_4
+  - first:
+      213: 3732253004255219591
+    second: peashooter_selector_background_5
+  - first:
+      213: 6069027062119532426
+    second: peashooter_selector_background_6
+  - first:
+      213: -3752775143951719397
+    second: peashooter_selector_background_7
+  - first:
+      213: 6266071955247395072
+    second: peashooter_selector_background_8
+  - first:
+      213: -2250115623980224913
+    second: peashooter_selector_background_9
+  - first:
+      213: -376616558753153030
+    second: peashooter_selector_background_10
+  - first:
+      213: 8587675481127420295
+    second: peashooter_selector_background_11
+  - first:
+      213: -2688003666104249796
+    second: peashooter_selector_background_12
+  - first:
+      213: 8676938488155043095
+    second: peashooter_selector_background_13
+  - first:
+      213: 9007827087502524241
+    second: peashooter_selector_background_14
+  - first:
+      213: -153518075209794606
+    second: peashooter_selector_background_15
+  - first:
+      213: 7526719871772485125
+    second: peashooter_selector_background_16
+  - first:
+      213: 316035085357775622
+    second: peashooter_selector_background_17
+  - first:
+      213: -1568847946093365969
+    second: peashooter_selector_background_18
+  - first:
+      213: -7770697660627650275
+    second: peashooter_selector_background_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: peashooter_selector_background_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 612
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14af86fd315d6a740800000000000000
+      internalID: 5163048304156146241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 612
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5b01bacf998a000800000000000000
+      internalID: 47457106568197624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_2
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 612
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45690057d26150d0800000000000000
+      internalID: -3435856363806694069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_3
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 612
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4e77f94129eb390800000000000000
+      internalID: -7800636887286684493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104c4fa0fbc08e8a0800000000000000
+      internalID: -6275752066078686207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 468
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f44824550abc330800000000000000
+      internalID: 3732253004255219591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_6
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 468
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a870ed935f3893450800000000000000
+      internalID: 6069027062119532426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 468
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14a7deb3e67bebc0800000000000000
+      internalID: -3752775143951719397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 324
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001fe858e3f85f650800000000000000
+      internalID: 6266071955247395072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 324
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e2a19f2cbf5c0e0800000000000000
+      internalID: -2250115623980224913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_10
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 324
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afffcf63c3df5caf0800000000000000
+      internalID: -376616558753153030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 324
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7818ee2c95d8d2770800000000000000
+      internalID: 8587675481127420295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3298e648ea42bad0800000000000000
+      internalID: -2688003666104249796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 180
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7157564259daa6870800000000000000
+      internalID: 8676938488155043095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_14
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 180
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fbab4b20b320d70800000000000000
+      internalID: 9007827087502524241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 180
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbb48cbf189eddf0800000000000000
+      internalID: -153518075209794606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_16
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 36
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5066fd858d7447860800000000000000
+      internalID: 7526719871772485125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_17
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 36
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b7f475c38c26400800000000000000
+      internalID: 316035085357775622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_18
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 36
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25f08aea155a3ae0800000000000000
+      internalID: -1568847946093365969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peashooter_selector_background_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 36
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19745906afe82490800000000000000
+      internalID: -7770697660627650275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

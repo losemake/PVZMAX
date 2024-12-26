@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 9ac69f61621178244b2ef42c07a16d9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8481071213618946459
+    second: gloomshroom_selector_background_0
+  - first:
+      213: 5025608214317431314
+    second: gloomshroom_selector_background_1
+  - first:
+      213: 8337404277576308274
+    second: gloomshroom_selector_background_2
+  - first:
+      213: 9041330003912750816
+    second: gloomshroom_selector_background_3
+  - first:
+      213: -6709590836954875162
+    second: gloomshroom_selector_background_4
+  - first:
+      213: 4290418667452106955
+    second: gloomshroom_selector_background_5
+  - first:
+      213: 6537053660251234529
+    second: gloomshroom_selector_background_6
+  - first:
+      213: 4883047806588698499
+    second: gloomshroom_selector_background_7
+  - first:
+      213: 237378380320839684
+    second: gloomshroom_selector_background_8
+  - first:
+      213: -4520468285331776033
+    second: gloomshroom_selector_background_9
+  - first:
+      213: -7988228575694361990
+    second: gloomshroom_selector_background_10
+  - first:
+      213: 2669213720206374940
+    second: gloomshroom_selector_background_11
+  - first:
+      213: -8703979624491004028
+    second: gloomshroom_selector_background_12
+  - first:
+      213: 6791645635567400019
+    second: gloomshroom_selector_background_13
+  - first:
+      213: -2848806725563799037
+    second: gloomshroom_selector_background_14
+  - first:
+      213: 5600814872850938164
+    second: gloomshroom_selector_background_15
+  - first:
+      213: -1398094514974900068
+    second: gloomshroom_selector_background_16
+  - first:
+      213: 733189332115221067
+    second: gloomshroom_selector_background_17
+  - first:
+      213: -5160306425698199039
+    second: gloomshroom_selector_background_18
+  - first:
+      213: -2985838782284215438
+    second: gloomshroom_selector_background_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 612
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b916c8a8551d2b570800000000000000
+      internalID: 8481071213618946459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 613
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21afcaa4b0c8eb540800000000000000
+      internalID: 5025608214317431314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 612
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23612c9540964b370800000000000000
+      internalID: 8337404277576308274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_3
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 613
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6fc4c4cb1497d70800000000000000
+      internalID: 9041330003912750816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 461
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eab617ceaeb2e2a0800000000000000
+      internalID: -6709590836954875162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 462
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc80033eb01aa8b30800000000000000
+      internalID: 4290418667452106955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_6
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 461
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e021f05ba748ba50800000000000000
+      internalID: 6537053660251234529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 462
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f38fccb1214c340800000000000000
+      internalID: 4883047806588698499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 322
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408916411665b4300800000000000000
+      internalID: 237378380320839684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 323
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd51628b021441c0800000000000000
+      internalID: -4520468285331776033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 322
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7aec111f6c142190800000000000000
+      internalID: -7988228575694361990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_11
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 323
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18ff768cb3fa0520800000000000000
+      internalID: 2669213720206374940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fc9fda5a0453780800000000000000
+      internalID: -8703979624491004028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 172
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354b35cc8b5c04e50800000000000000
+      internalID: 6791645635567400019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_14
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 171
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aa60170610778d0800000000000000
+      internalID: -2848806725563799037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 172
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4393105d3771abd40800000000000000
+      internalID: 5600814872850938164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 32
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90cf703278f89ce0800000000000000
+      internalID: -1398094514974900068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_17
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 33
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a65dd10dfcc2a00800000000000000
+      internalID: 733189332115221067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_18
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 32
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ad71475a8e268b0800000000000000
+      internalID: -5160306425698199039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gloomshroom_selector_background_19
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 33
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b4d59727b2096d0800000000000000
+      internalID: -2985838782284215438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

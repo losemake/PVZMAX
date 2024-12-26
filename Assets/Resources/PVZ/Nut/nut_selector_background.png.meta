@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 842c64b5bdcf5a647a85c61dea859c7e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1712540110845046435
+    second: nut_selector_background_0
+  - first:
+      213: -3669045752275613659
+    second: nut_selector_background_1
+  - first:
+      213: 3203740822053972678
+    second: nut_selector_background_2
+  - first:
+      213: -2698600854332954188
+    second: nut_selector_background_3
+  - first:
+      213: -3239429085458313867
+    second: nut_selector_background_4
+  - first:
+      213: 557424646920021781
+    second: nut_selector_background_5
+  - first:
+      213: 6259409335289798473
+    second: nut_selector_background_6
+  - first:
+      213: -2619942843523273467
+    second: nut_selector_background_7
+  - first:
+      213: -8993193372149076991
+    second: nut_selector_background_8
+  - first:
+      213: -1438304443639506158
+    second: nut_selector_background_9
+  - first:
+      213: 890759732027725960
+    second: nut_selector_background_10
+  - first:
+      213: -1015848569653886885
+    second: nut_selector_background_11
+  - first:
+      213: 2555425695621258278
+    second: nut_selector_background_12
+  - first:
+      213: 6409550456382721516
+    second: nut_selector_background_13
+  - first:
+      213: 2710823396075823123
+    second: nut_selector_background_14
+  - first:
+      213: 7626409724612976577
+    second: nut_selector_background_15
+  - first:
+      213: -6993019683095579828
+    second: nut_selector_background_16
+  - first:
+      213: -1519525939829114605
+    second: nut_selector_background_17
+  - first:
+      213: -5505486412874406747
+    second: nut_selector_background_18
+  - first:
+      213: -6543768927029751415
+    second: nut_selector_background_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nut_selector_background_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 608
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aee68a482a24c710800000000000000
+      internalID: 1712540110845046435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 605
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528c4f6e35ee41dc0800000000000000
+      internalID: -3669045752275613659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 605
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cae1f2bd49f57c20800000000000000
+      internalID: 3203740822053972678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 605
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b92bee12d4ac8ad0800000000000000
+      internalID: -2698600854332954188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d4036f86c3b03d0800000000000000
+      internalID: -3239429085458313867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 465
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51727b453ce5cb700800000000000000
+      internalID: 557424646920021781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_6
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 465
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f56bd60a3edd650800000000000000
+      internalID: 6259409335289798473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 465
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50de7f76dd714abd0800000000000000
+      internalID: -2619942843523273467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 318
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c28a8a642c13380800000000000000
+      internalID: -8993193372149076991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 315
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b500e9abd1a0ce0800000000000000
+      internalID: -1438304443639506158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_10
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 315
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8881cbfb14d9c5c00800000000000000
+      internalID: 890759732027725960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_11
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 315
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50013cab1bf6e1f0800000000000000
+      internalID: -1015848569653886885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c19658122b67320800000000000000
+      internalID: 2555425695621258278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 175
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced82aa4e2c43f850800000000000000
+      internalID: 6409550456382721516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_14
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 175
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310eae32487ce9520800000000000000
+      internalID: 2710823396075823123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 175
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf1423fc3376d960800000000000000
+      internalID: 7626409724612976577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 28
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43f5c916adc3fe90800000000000000
+      internalID: -6993019683095579828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_17
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 25
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3197e71653f89eae0800000000000000
+      internalID: -1519525939829114605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 25
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4a1ecd6459893b0800000000000000
+      internalID: -5505486412874406747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_selector_background_19
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 25
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981172cc4dcdf25a0800000000000000
+      internalID: -6543768927029751415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

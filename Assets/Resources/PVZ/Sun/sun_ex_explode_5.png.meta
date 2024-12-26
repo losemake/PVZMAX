@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: af5ed7b90c38c644391764a700debfa5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 438405599188864493
+    second: sun_ex_explode_5_0
+  - first:
+      213: 8298019647905721584
+    second: sun_ex_explode_5_1
+  - first:
+      213: 8773380924554611517
+    second: sun_ex_explode_5_2
+  - first:
+      213: 4639987208990655478
+    second: sun_ex_explode_5_3
+  - first:
+      213: -1206663017242580530
+    second: sun_ex_explode_5_4
+  - first:
+      213: 8334491795807504261
+    second: sun_ex_explode_5_5
+  - first:
+      213: -773375816592350298
+    second: sun_ex_explode_5_6
+  - first:
+      213: -4789698050051691099
+    second: sun_ex_explode_5_7
+  - first:
+      213: -246953052599823761
+    second: sun_ex_explode_5_8
+  - first:
+      213: 3779061631241984472
+    second: sun_ex_explode_5_9
+  - first:
+      213: 5235712701870544014
+    second: sun_ex_explode_5_10
+  - first:
+      213: -8703897729193641403
+    second: sun_ex_explode_5_11
+  - first:
+      213: 3186614995849972849
+    second: sun_ex_explode_5_12
+  - first:
+      213: 6258358606061299739
+    second: sun_ex_explode_5_13
+  - first:
+      213: 8841658913805244057
+    second: sun_ex_explode_5_14
+  - first:
+      213: -1052434285817489017
+    second: sun_ex_explode_5_15
+  - first:
+      213: -7866425999096403319
+    second: sun_ex_explode_5_16
+  - first:
+      213: 5294094580767438225
+    second: sun_ex_explode_5_17
+  - first:
+      213: 7452131833346090696
+    second: sun_ex_explode_5_18
+  - first:
+      213: 6813585187336075178
+    second: sun_ex_explode_5_19
+  - first:
+      213: 8686296809718024348
+    second: sun_ex_explode_5_20
+  - first:
+      213: 4833940494648994754
+    second: sun_ex_explode_5_21
+  - first:
+      213: 8210897191440647661
+    second: sun_ex_explode_5_22
+  - first:
+      213: -2265305294375045561
+    second: sun_ex_explode_5_23
+  - first:
+      213: -2140524972026084026
+    second: sun_ex_explode_5_24
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sun_ex_explode_5_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 243
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedc137d197851600800000000000000
+      internalID: 438405599188864493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 311
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fce1aca7ec782370800000000000000
+      internalID: 8298019647905721584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 263
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b044fa77f41c970800000000000000
+      internalID: 8773380924554611517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f38e3a68cb846040800000000000000
+      internalID: 4639987208990655478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 251
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9a7a50162114fe0800000000000000
+      internalID: -1206663017242580530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 251
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587838851201aa370800000000000000
+      internalID: 8334491795807504261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 207
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3a226daca6445f0800000000000000
+      internalID: -773375816592350298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ada9491003978db0800000000000000
+      internalID: -4789698050051691099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 227
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62d69fc185a29cf0800000000000000
+      internalID: -246953052599823761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_9
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 231
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d99c72088ce17430800000000000000
+      internalID: 3779061631241984472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 187
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e849efc56fcf8a840800000000000000
+      internalID: 5235712701870544014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 159
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a751a612b853780800000000000000
+      internalID: -8703897729193641403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_12
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 183
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c029f8471293c20800000000000000
+      internalID: 3186614995849972849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_13
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 147
+        width: 26
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18ea477ef72ad650800000000000000
+      internalID: 6258358606061299739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 115
+        width: 62
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996178edfe1e3ba70800000000000000
+      internalID: 8841658913805244057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 91
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7891864d7900561f0800000000000000
+      internalID: -1052434285817489017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_16
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 139
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a26ff5b37d4d290800000000000000
+      internalID: -7866425999096403319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_17
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 119
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195b6fdc8f6687940800000000000000
+      internalID: 5294094580767438225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 123
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c669f95b6a4b6760800000000000000
+      internalID: 7452131833346090696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 95
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7b702c0a7be8e50800000000000000
+      internalID: 6813585187336075178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_20
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c980adc2deceb8870800000000000000
+      internalID: 8686296809718024348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 51
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbede0c44b951340800000000000000
+      internalID: 4833940494648994754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5821f0e77f2f170800000000000000
+      internalID: 8210897191440647661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_23
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 31
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746b6fc36d40090e0800000000000000
+      internalID: -2265305294375045561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_ex_explode_5_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 11
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645488101e35b42e0800000000000000
+      internalID: -2140524972026084026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
