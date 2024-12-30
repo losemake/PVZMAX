@@ -6,6 +6,20 @@ using UnityEngine.UI;
 namespace QFramework.PVZMAX
 {
     /// <summary>
+    /// 音效名称
+    /// </summary>
+    public enum SfxType 
+    { 
+        Dead, 
+        Hit, 
+        Levelup = 3, 
+        lose, 
+        Melee, 
+        Range = 7, 
+        Select, 
+        Win 
+    }
+    /// <summary>
     /// 音频管理
     /// </summary>
     public class AudioManager : MonoBehaviour , IController
@@ -24,12 +38,7 @@ namespace QFramework.PVZMAX
         
         [Header("#Model")]
         private AudioModel mAudioModel;
-        
-        [Header("#Component")]
-        public Scrollbar bar;
-        public Scrollbar bar2;
 
-        public enum SfxType { Dead, Hit, Levelup = 3, lose, Melee, Range = 7, Select, Win }
         void Awake()
         {
             instance = this;
@@ -37,20 +46,6 @@ namespace QFramework.PVZMAX
             mAudioModel = this.GetModel<AudioModel>();
 
             Init();
-
-            bar.value = mAudioModel.BgmVolume.Value;
-
-            bar.onValueChanged.AddListener((value) =>
-            {
-                this.SendCommand(new SetBgmVolumeCommand(value));
-            });
-
-            bar2.value = mAudioModel.SfxVolume.Value;
-
-            bar2.onValueChanged.AddListener((value) =>
-            {
-                this.SendCommand(new SetSfxVolumeCommand(value));
-            });
 
             this.RegisterEvent<AudioBgmVolumeChangedEvent>(e =>
             {
@@ -63,20 +58,8 @@ namespace QFramework.PVZMAX
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
 
             PlayBgm(true);
-        }
 
-        void Update()
-        {
-            if(Input.GetKeyDown(KeyCode.W)) 
-            {
-                
-                PlaySfx(SfxType.Dead);
-            }
-
-            if (Input.GetKeyDown(KeyCode.Q))
-            {
-                PlaySfx(SfxType.Hit);
-            }
+            DontDestroyOnLoad(gameObject);
         }
 
         private void Init()
