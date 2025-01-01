@@ -103,7 +103,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -577,14 +577,34 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      nut_selector_background_0: 1712540110845046435
+      nut_selector_background_1: -3669045752275613659
+      nut_selector_background_10: 890759732027725960
+      nut_selector_background_11: -1015848569653886885
+      nut_selector_background_12: 2555425695621258278
+      nut_selector_background_13: 6409550456382721516
+      nut_selector_background_14: 2710823396075823123
+      nut_selector_background_15: 7626409724612976577
+      nut_selector_background_16: -6993019683095579828
+      nut_selector_background_17: -1519525939829114605
+      nut_selector_background_18: -5505486412874406747
+      nut_selector_background_19: -6543768927029751415
+      nut_selector_background_2: 3203740822053972678
+      nut_selector_background_3: -2698600854332954188
+      nut_selector_background_4: -3239429085458313867
+      nut_selector_background_5: 557424646920021781
+      nut_selector_background_6: 6259409335289798473
+      nut_selector_background_7: -2619942843523273467
+      nut_selector_background_8: -8993193372149076991
+      nut_selector_background_9: -1438304443639506158
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

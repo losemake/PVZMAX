@@ -139,7 +139,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -865,14 +865,46 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bubbles_ex_4_0: 2496170418507085883
+      bubbles_ex_4_1: -6378442259698213055
+      bubbles_ex_4_10: -4457229824576965785
+      bubbles_ex_4_11: -2751581894386978228
+      bubbles_ex_4_12: -4525834116368508369
+      bubbles_ex_4_13: -4119753857192453513
+      bubbles_ex_4_14: -629977165320772200
+      bubbles_ex_4_15: -1617009556846602831
+      bubbles_ex_4_16: -354031951765904830
+      bubbles_ex_4_17: -4208881860088209008
+      bubbles_ex_4_18: -7048190995481566413
+      bubbles_ex_4_19: 1666352804504312952
+      bubbles_ex_4_2: 8337731740290094037
+      bubbles_ex_4_20: -6459190121074878846
+      bubbles_ex_4_21: -8534938875551739359
+      bubbles_ex_4_22: -2039054317950197159
+      bubbles_ex_4_23: 8414833968687873715
+      bubbles_ex_4_24: -3308312069356909539
+      bubbles_ex_4_25: -4882035208420457752
+      bubbles_ex_4_26: 99449464884210782
+      bubbles_ex_4_27: 5865837428102935743
+      bubbles_ex_4_28: 3299805083944216147
+      bubbles_ex_4_29: -7437367240129958569
+      bubbles_ex_4_3: -8289445383775423253
+      bubbles_ex_4_30: -6382789317375383198
+      bubbles_ex_4_31: -2616348038419896458
+      bubbles_ex_4_4: -464293171888010910
+      bubbles_ex_4_5: 1954674092137994313
+      bubbles_ex_4_6: -4007041079997895203
+      bubbles_ex_4_7: -891115494041281358
+      bubbles_ex_4_8: 5649394710277522329
+      bubbles_ex_4_9: 1049978619437381021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -70,7 +70,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -313,14 +313,23 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sun_ex_explode_4_0: -6057346880129510840
+      sun_ex_explode_4_1: -7045118966207834465
+      sun_ex_explode_4_2: -9054127319934858056
+      sun_ex_explode_4_3: -4660964451631525524
+      sun_ex_explode_4_4: -6257946466231833648
+      sun_ex_explode_4_5: 2563994993652132218
+      sun_ex_explode_4_6: 7575876791373908192
+      sun_ex_explode_4_7: -1750938051153575208
+      sun_ex_explode_4_8: 2446793776094545091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

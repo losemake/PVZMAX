@@ -151,7 +151,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -961,14 +961,50 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bubbles_ex_3_0: 1446339589034207013
+      bubbles_ex_3_1: -6861478621470916810
+      bubbles_ex_3_10: -2229955390894540312
+      bubbles_ex_3_11: -6734501164729288821
+      bubbles_ex_3_12: 8015277535078256119
+      bubbles_ex_3_13: -2713580669439440635
+      bubbles_ex_3_14: -7302242663310012734
+      bubbles_ex_3_15: 7569980539800269422
+      bubbles_ex_3_16: -7635738177031794911
+      bubbles_ex_3_17: -6926987389152064030
+      bubbles_ex_3_18: -3727731479367038798
+      bubbles_ex_3_19: 6541293049060372658
+      bubbles_ex_3_2: 6102144094793734760
+      bubbles_ex_3_20: -4306480121070499126
+      bubbles_ex_3_21: 5967746867635012380
+      bubbles_ex_3_22: -8709728790029664447
+      bubbles_ex_3_23: 3685324197668019254
+      bubbles_ex_3_24: 2071203980475828269
+      bubbles_ex_3_25: -1322531953747624888
+      bubbles_ex_3_26: -4428442977021208063
+      bubbles_ex_3_27: 4162248449329641288
+      bubbles_ex_3_28: 652479505340673194
+      bubbles_ex_3_29: -288655011835002297
+      bubbles_ex_3_3: 5418474858659954343
+      bubbles_ex_3_30: 5301152755912014617
+      bubbles_ex_3_31: -3374198478458141270
+      bubbles_ex_3_32: -7313257287414435015
+      bubbles_ex_3_33: -5118067524099967461
+      bubbles_ex_3_34: 5226981100888810069
+      bubbles_ex_3_35: 6283645865041317949
+      bubbles_ex_3_4: 2034835702881658112
+      bubbles_ex_3_5: 3172775759074388015
+      bubbles_ex_3_6: 8907164916583763974
+      bubbles_ex_3_7: -980668347983359469
+      bubbles_ex_3_8: 3299196170541161934
+      bubbles_ex_3_9: 3533890271872268128
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

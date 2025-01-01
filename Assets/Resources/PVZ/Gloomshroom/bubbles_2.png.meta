@@ -79,7 +79,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -385,14 +385,26 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bubbles_2_0: 8393744948017666167
+      bubbles_2_1: -3876301743885942819
+      bubbles_2_10: 5216260195705711743
+      bubbles_2_11: 2199230773106063861
+      bubbles_2_2: -7966933027431722752
+      bubbles_2_3: 5204600558648644313
+      bubbles_2_4: -4101607681478292397
+      bubbles_2_5: -2522501871317850671
+      bubbles_2_6: 4656798656163250083
+      bubbles_2_7: -8707544910196259555
+      bubbles_2_8: 152635808408940750
+      bubbles_2_9: 6044828867440906500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

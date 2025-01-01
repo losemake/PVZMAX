@@ -295,7 +295,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -2113,14 +2113,98 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bubbles_ex_7_0: 6265436612139509446
+      bubbles_ex_7_1: -5901595429264787863
+      bubbles_ex_7_10: -634845849259316929
+      bubbles_ex_7_11: -6818124870274899123
+      bubbles_ex_7_12: 6065741178811950695
+      bubbles_ex_7_13: -3245859336185287487
+      bubbles_ex_7_14: -5757390364548950473
+      bubbles_ex_7_15: 4836439739684522177
+      bubbles_ex_7_16: 108079469568139430
+      bubbles_ex_7_17: 1775143299470379516
+      bubbles_ex_7_18: 8634094620619172683
+      bubbles_ex_7_19: 2667054241153682118
+      bubbles_ex_7_2: 1168778317914494472
+      bubbles_ex_7_20: -476542274651860644
+      bubbles_ex_7_21: 7889635546458857120
+      bubbles_ex_7_22: -3306561265982899268
+      bubbles_ex_7_23: 1263161852725233498
+      bubbles_ex_7_24: 3060507271830241976
+      bubbles_ex_7_25: -4751484134623184324
+      bubbles_ex_7_26: -1562381649880087270
+      bubbles_ex_7_27: -3435028087135519783
+      bubbles_ex_7_28: 4618331858313828002
+      bubbles_ex_7_29: -1800074085501521886
+      bubbles_ex_7_3: 7711606780984335171
+      bubbles_ex_7_30: 7111457212900026691
+      bubbles_ex_7_31: -5185140287481940818
+      bubbles_ex_7_32: 7626113545592271042
+      bubbles_ex_7_33: 3103745621842087608
+      bubbles_ex_7_34: -1268919724530884852
+      bubbles_ex_7_35: -4746004633084126605
+      bubbles_ex_7_36: -7494530110139038946
+      bubbles_ex_7_37: -6041922662979821404
+      bubbles_ex_7_38: -6440635059855855206
+      bubbles_ex_7_39: 513690504291354007
+      bubbles_ex_7_4: 3135110782642065740
+      bubbles_ex_7_40: -8484398858578705076
+      bubbles_ex_7_41: 2841721918899051896
+      bubbles_ex_7_42: 4261419024622462004
+      bubbles_ex_7_43: 8113267649864945869
+      bubbles_ex_7_44: -1231603188705330256
+      bubbles_ex_7_45: -2798930199248819994
+      bubbles_ex_7_46: -6094638077766054213
+      bubbles_ex_7_47: -9162703669576004368
+      bubbles_ex_7_48: 1138668749159899465
+      bubbles_ex_7_49: 5376512061300507108
+      bubbles_ex_7_5: 7688624498753048031
+      bubbles_ex_7_50: -5978355403079180956
+      bubbles_ex_7_51: -8396911727447657784
+      bubbles_ex_7_52: -1537714267496959610
+      bubbles_ex_7_53: 823464842960395593
+      bubbles_ex_7_54: -4160530601322037460
+      bubbles_ex_7_55: 92000273751165844
+      bubbles_ex_7_56: 264845244718041403
+      bubbles_ex_7_57: 5417128409282733422
+      bubbles_ex_7_58: -4985512730246893833
+      bubbles_ex_7_59: -7902640357192637512
+      bubbles_ex_7_6: -3879264436913439409
+      bubbles_ex_7_60: 1567670163347816784
+      bubbles_ex_7_61: -3747532444607776708
+      bubbles_ex_7_62: -2206213802797765318
+      bubbles_ex_7_63: -8342330882241586371
+      bubbles_ex_7_64: -4382195018732219866
+      bubbles_ex_7_65: -959508353988388695
+      bubbles_ex_7_66: -2779452920707014868
+      bubbles_ex_7_67: -421283769289216647
+      bubbles_ex_7_68: 5836657357605574476
+      bubbles_ex_7_69: -6537843057200850104
+      bubbles_ex_7_7: -5250206823871209466
+      bubbles_ex_7_70: -1930487534151788745
+      bubbles_ex_7_71: 2022320438344579183
+      bubbles_ex_7_72: -2290463088876888908
+      bubbles_ex_7_73: -895065454256944353
+      bubbles_ex_7_74: -4070368442538588585
+      bubbles_ex_7_75: -5141460317850345666
+      bubbles_ex_7_76: 2203156665022538321
+      bubbles_ex_7_77: 7502500353812869506
+      bubbles_ex_7_78: -6277543039693428086
+      bubbles_ex_7_79: -1182157423684547093
+      bubbles_ex_7_8: -6591424400593922400
+      bubbles_ex_7_80: 6690288021031761031
+      bubbles_ex_7_81: -697585701670400718
+      bubbles_ex_7_82: -6024347450243495725
+      bubbles_ex_7_83: -6137156195587848351
+      bubbles_ex_7_9: 4776837219054589311
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -45,6 +45,7 @@ namespace QFramework.PVZMAX
 
         protected override void OnOpen()
         {
+            //Debug.Log("UIµÄOnOPenº¯ÊýÖ´ÐÐ");
             BgmSettingSlider.value = this.GetModel<AudioModel>().BgmVolume.Value;
             SfxSettingSlider.value = this.GetModel<AudioModel>().SfxVolume.Value;
         }

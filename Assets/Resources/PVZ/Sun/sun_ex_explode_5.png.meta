@@ -118,7 +118,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -697,14 +697,39 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sun_ex_explode_5_0: 438405599188864493
+      sun_ex_explode_5_1: 8298019647905721584
+      sun_ex_explode_5_10: 5235712701870544014
+      sun_ex_explode_5_11: -8703897729193641403
+      sun_ex_explode_5_12: 3186614995849972849
+      sun_ex_explode_5_13: 6258358606061299739
+      sun_ex_explode_5_14: 8841658913805244057
+      sun_ex_explode_5_15: -1052434285817489017
+      sun_ex_explode_5_16: -7866425999096403319
+      sun_ex_explode_5_17: 5294094580767438225
+      sun_ex_explode_5_18: 7452131833346090696
+      sun_ex_explode_5_19: 6813585187336075178
+      sun_ex_explode_5_2: 8773380924554611517
+      sun_ex_explode_5_20: 8686296809718024348
+      sun_ex_explode_5_21: 4833940494648994754
+      sun_ex_explode_5_22: 8210897191440647661
+      sun_ex_explode_5_23: -2265305294375045561
+      sun_ex_explode_5_24: -2140524972026084026
+      sun_ex_explode_5_3: 4639987208990655478
+      sun_ex_explode_5_4: -1206663017242580530
+      sun_ex_explode_5_5: 8334491795807504261
+      sun_ex_explode_5_6: -773375816592350298
+      sun_ex_explode_5_7: -4789698050051691099
+      sun_ex_explode_5_8: -246953052599823761
+      sun_ex_explode_5_9: 3779061631241984472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

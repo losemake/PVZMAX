@@ -103,7 +103,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -577,14 +577,34 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sunflower_selector_background_0: 4452630629366852636
+      sunflower_selector_background_1: 4701066557583924501
+      sunflower_selector_background_10: 6815704430001211046
+      sunflower_selector_background_11: -8293073264931829481
+      sunflower_selector_background_12: -8213966192264310044
+      sunflower_selector_background_13: -3902924461133259745
+      sunflower_selector_background_14: 6959136691364272983
+      sunflower_selector_background_15: -7012914581778892876
+      sunflower_selector_background_16: -2256218856988234934
+      sunflower_selector_background_17: -4792660666727344655
+      sunflower_selector_background_18: 5706024500636317585
+      sunflower_selector_background_19: -5199389972513567683
+      sunflower_selector_background_2: 2699918013232308240
+      sunflower_selector_background_3: -2601543647104719189
+      sunflower_selector_background_4: 2990569497063433339
+      sunflower_selector_background_5: 1988761907360186338
+      sunflower_selector_background_6: 4135794516265891830
+      sunflower_selector_background_7: 8230746555542702419
+      sunflower_selector_background_8: -2056332493114556488
+      sunflower_selector_background_9: -8137506968352867668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

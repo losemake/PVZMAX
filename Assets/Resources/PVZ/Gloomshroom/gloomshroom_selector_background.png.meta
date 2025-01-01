@@ -103,7 +103,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -577,14 +577,34 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gloomshroom_selector_background_0: 8481071213618946459
+      gloomshroom_selector_background_1: 5025608214317431314
+      gloomshroom_selector_background_10: -7988228575694361990
+      gloomshroom_selector_background_11: 2669213720206374940
+      gloomshroom_selector_background_12: -8703979624491004028
+      gloomshroom_selector_background_13: 6791645635567400019
+      gloomshroom_selector_background_14: -2848806725563799037
+      gloomshroom_selector_background_15: 5600814872850938164
+      gloomshroom_selector_background_16: -1398094514974900068
+      gloomshroom_selector_background_17: 733189332115221067
+      gloomshroom_selector_background_18: -5160306425698199039
+      gloomshroom_selector_background_19: -2985838782284215438
+      gloomshroom_selector_background_2: 8337404277576308274
+      gloomshroom_selector_background_3: 9041330003912750816
+      gloomshroom_selector_background_4: -6709590836954875162
+      gloomshroom_selector_background_5: 4290418667452106955
+      gloomshroom_selector_background_6: 6537053660251234529
+      gloomshroom_selector_background_7: 4883047806588698499
+      gloomshroom_selector_background_8: 237378380320839684
+      gloomshroom_selector_background_9: -4520468285331776033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

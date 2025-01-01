@@ -25,7 +25,6 @@ namespace QFramework.PVZMAX
             {
                 LocalPlayBtn.onClick.AddListener(() =>
                 {
-                    Debug.Log("本地游玩开启");
                     SceneManager.LoadScene("SelectScene");
                 });
             }

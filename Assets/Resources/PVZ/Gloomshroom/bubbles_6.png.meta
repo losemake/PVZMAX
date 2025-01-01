@@ -211,7 +211,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -1441,14 +1441,70 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bubbles_6_0: -1824873894018203102
+      bubbles_6_1: 5143284418209935288
+      bubbles_6_10: -4705157074021109095
+      bubbles_6_11: -1705600391229463907
+      bubbles_6_12: 562702662763359935
+      bubbles_6_13: -1210502978302124915
+      bubbles_6_14: -3553888996721442639
+      bubbles_6_15: 7585525439709092908
+      bubbles_6_16: -7238260626935165917
+      bubbles_6_17: -7063804484196094515
+      bubbles_6_18: -8528705134701564909
+      bubbles_6_19: 4867867084732444806
+      bubbles_6_2: 3586430653019110367
+      bubbles_6_20: 6777293892039047162
+      bubbles_6_21: -4573216471820154139
+      bubbles_6_22: -33016707327105543
+      bubbles_6_23: 4304096888565266217
+      bubbles_6_24: 2718247383333791947
+      bubbles_6_25: -505093043272740635
+      bubbles_6_26: 5426146341150783105
+      bubbles_6_27: -7777942928510364133
+      bubbles_6_28: 599167013626084339
+      bubbles_6_29: 1928070744434676215
+      bubbles_6_3: -8899495355126300893
+      bubbles_6_30: -787844476706297009
+      bubbles_6_31: -8688076616822774165
+      bubbles_6_32: -6993966538927278786
+      bubbles_6_33: 3660747868523614262
+      bubbles_6_34: -5079706871327108808
+      bubbles_6_35: -3932704599637693633
+      bubbles_6_36: 3705480572107259847
+      bubbles_6_37: -20531695278758074
+      bubbles_6_38: -403573981965417710
+      bubbles_6_39: 6404628077425796787
+      bubbles_6_4: -8099556313958044927
+      bubbles_6_40: -2870188771948354494
+      bubbles_6_41: -5112662369757359407
+      bubbles_6_42: -3045311116528469262
+      bubbles_6_43: 3641926504129697299
+      bubbles_6_44: 8949919389553634840
+      bubbles_6_45: -357367781724743793
+      bubbles_6_46: -7694586914459770111
+      bubbles_6_47: 9085103361286249207
+      bubbles_6_48: -2546312144965277722
+      bubbles_6_49: 5796750978631022139
+      bubbles_6_5: 7755621512667983929
+      bubbles_6_50: 1299954083645024633
+      bubbles_6_51: 4239874027582773166
+      bubbles_6_52: 769883517224617387
+      bubbles_6_53: 1831626309186612594
+      bubbles_6_54: -6858898615862716341
+      bubbles_6_55: 348101539595691182
+      bubbles_6_6: 4989303181000438783
+      bubbles_6_7: -7095001573475037577
+      bubbles_6_8: 2699899246327164323
+      bubbles_6_9: -6640986359543376071
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

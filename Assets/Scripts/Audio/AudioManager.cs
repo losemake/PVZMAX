@@ -33,15 +33,25 @@ namespace QFramework.PVZMAX
         [Header("#SFX")]
         public AudioClip[] sfxClips;
         AudioSource[] sfxPlayers;
-        public int channels;        // 声道数
-        public int channelIndex;           // 声道索引（加速检索空闲的声道）
+        public int channels;                // 声道数
+        public int channelIndex;            // 声道索引（加速检索空闲的声道）
         
         [Header("#Model")]
         private AudioModel mAudioModel;
 
         void Awake()
         {
-            instance = this;
+            //生成检查，防止多次生成
+            if(instance == null)
+            {
+                instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+            
 
             mAudioModel = this.GetModel<AudioModel>();
 
@@ -58,8 +68,6 @@ namespace QFramework.PVZMAX
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
 
             PlayBgm(true);
-
-            DontDestroyOnLoad(gameObject);
         }
 
         private void Init()

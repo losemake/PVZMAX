@@ -100,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -553,14 +553,33 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      nut_explode_5_0: 1906676600434718979
+      nut_explode_5_1: -8458545360149962822
+      nut_explode_5_10: 2153157561863459131
+      nut_explode_5_11: 5120108827785931678
+      nut_explode_5_12: 7241075487678563072
+      nut_explode_5_13: 1236517451270232076
+      nut_explode_5_14: 4516736561116652632
+      nut_explode_5_15: 627248165884897044
+      nut_explode_5_16: -423456744898231450
+      nut_explode_5_17: 8350280065332900472
+      nut_explode_5_18: -4036279206127833523
+      nut_explode_5_2: -1048863400804091633
+      nut_explode_5_3: 5010030739596233126
+      nut_explode_5_4: 244502660622585270
+      nut_explode_5_5: 6312616206104488470
+      nut_explode_5_6: 2070878594823034332
+      nut_explode_5_7: -9015701197907765292
+      nut_explode_5_8: -5016867327961983992
+      nut_explode_5_9: -5460172354414787339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

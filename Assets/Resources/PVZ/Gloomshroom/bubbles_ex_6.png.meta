@@ -259,7 +259,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -1825,14 +1825,86 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bubbles_ex_6_0: 2485675984179720344
+      bubbles_ex_6_1: 3753269973950237639
+      bubbles_ex_6_10: 730156695096013588
+      bubbles_ex_6_11: -5692765462352119324
+      bubbles_ex_6_12: -2687488037473716090
+      bubbles_ex_6_13: 7555632583689557018
+      bubbles_ex_6_14: 2105033898430268354
+      bubbles_ex_6_15: 1852494670669573807
+      bubbles_ex_6_16: 8503898744614446262
+      bubbles_ex_6_17: 3111767490239802857
+      bubbles_ex_6_18: 5007642885969161194
+      bubbles_ex_6_19: -7847643159476109911
+      bubbles_ex_6_2: -4758689417080825384
+      bubbles_ex_6_20: 5702412249120319568
+      bubbles_ex_6_21: 44342543189126140
+      bubbles_ex_6_22: 6117258618866914708
+      bubbles_ex_6_23: -374854831532652520
+      bubbles_ex_6_24: -7811967273000240947
+      bubbles_ex_6_25: -8833735282725755549
+      bubbles_ex_6_26: 5241374155104359878
+      bubbles_ex_6_27: -5110104602726120536
+      bubbles_ex_6_28: -3863322749767990869
+      bubbles_ex_6_29: 7814591772919301575
+      bubbles_ex_6_3: -8878009872213526176
+      bubbles_ex_6_30: 1009736809005333698
+      bubbles_ex_6_31: 2087441869847878563
+      bubbles_ex_6_32: 6710344481299455331
+      bubbles_ex_6_33: 6345885864147750102
+      bubbles_ex_6_34: -5818959478164156459
+      bubbles_ex_6_35: 2812842087933911323
+      bubbles_ex_6_36: 1592799314054750136
+      bubbles_ex_6_37: -3029089565926267299
+      bubbles_ex_6_38: 7189106980309262369
+      bubbles_ex_6_39: 1749604095945269028
+      bubbles_ex_6_4: -9058500770682144422
+      bubbles_ex_6_40: 2221113284796885601
+      bubbles_ex_6_41: 7478413182080985872
+      bubbles_ex_6_42: -2440548817727368664
+      bubbles_ex_6_43: -3642219870602258764
+      bubbles_ex_6_44: 211677544081610404
+      bubbles_ex_6_45: -4596201968051239210
+      bubbles_ex_6_46: 4545825549775743904
+      bubbles_ex_6_47: 3596915084684348600
+      bubbles_ex_6_48: -6280921516546462457
+      bubbles_ex_6_49: -5154785361782990810
+      bubbles_ex_6_5: -4056433960470085661
+      bubbles_ex_6_50: 6953316832599201806
+      bubbles_ex_6_51: 6193984286342878957
+      bubbles_ex_6_52: -8025111715132731695
+      bubbles_ex_6_53: 4824645594510280082
+      bubbles_ex_6_54: -3667552063469353197
+      bubbles_ex_6_55: -8219364946662123277
+      bubbles_ex_6_56: -2964069847424771759
+      bubbles_ex_6_57: -3938627374480838438
+      bubbles_ex_6_58: -1945223335144929028
+      bubbles_ex_6_59: -2247117476791068773
+      bubbles_ex_6_6: 3169625776687296135
+      bubbles_ex_6_60: 3306018091777055775
+      bubbles_ex_6_61: -2182545721859244562
+      bubbles_ex_6_62: -1623358339225801029
+      bubbles_ex_6_63: 1972141589600932864
+      bubbles_ex_6_64: -9157960929274696893
+      bubbles_ex_6_65: 1224353761544126951
+      bubbles_ex_6_66: -491251837386384379
+      bubbles_ex_6_67: 5187011299517523415
+      bubbles_ex_6_68: -8849064686775066210
+      bubbles_ex_6_69: -2434126304849007127
+      bubbles_ex_6_7: -5061263941420999824
+      bubbles_ex_6_70: 7988473824888693070
+      bubbles_ex_6_71: -6063618479287508273
+      bubbles_ex_6_8: -438697966888299487
+      bubbles_ex_6_9: -9102539548392560114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

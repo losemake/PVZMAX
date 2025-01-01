@@ -103,7 +103,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -577,14 +577,34 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      peashooter_selector_background_0: 5163048304156146241
+      peashooter_selector_background_1: 47457106568197624
+      peashooter_selector_background_10: -376616558753153030
+      peashooter_selector_background_11: 8587675481127420295
+      peashooter_selector_background_12: -2688003666104249796
+      peashooter_selector_background_13: 8676938488155043095
+      peashooter_selector_background_14: 9007827087502524241
+      peashooter_selector_background_15: -153518075209794606
+      peashooter_selector_background_16: 7526719871772485125
+      peashooter_selector_background_17: 316035085357775622
+      peashooter_selector_background_18: -1568847946093365969
+      peashooter_selector_background_19: -7770697660627650275
+      peashooter_selector_background_2: -3435856363806694069
+      peashooter_selector_background_3: -7800636887286684493
+      peashooter_selector_background_4: -6275752066078686207
+      peashooter_selector_background_5: 3732253004255219591
+      peashooter_selector_background_6: 6069027062119532426
+      peashooter_selector_background_7: -3752775143951719397
+      peashooter_selector_background_8: 6266071955247395072
+      peashooter_selector_background_9: -2250115623980224913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
