@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace QFramework.PVZMAX 
 {
@@ -14,9 +15,22 @@ namespace QFramework.PVZMAX
     }
     public class GameKeyInputManager : MonoBehaviour, IController
     {
+        void FixedUpdate()
+        {
+            GameMode mode = this.GetModel<GameModel>().MGameMode.Value;
+            if (mode == GameMode.BATTLE)
+            {
+                float dirPlayer1 = Input.GetAxis("HorizontalPlayer1");
+                this.SendCommand(new BattlePlantMoveCommand(PlayerNum.Player_1, dirPlayer1));
+
+                float dirPlayer2 = Input.GetAxis("HorizontalPlayer2");
+                this.SendCommand(new BattlePlantMoveCommand(PlayerNum.Player_2, dirPlayer2));
+            }
+        }
         void Update()
         {
-            if(this.GetModel<GameModel>().MGameMode.Value == GameMode.SELECT)
+            GameMode mode = this.GetModel<GameModel>().MGameMode.Value;
+            if (mode == GameMode.SELECT)
             {
                 if(Input.GetKeyDown(KeyCode.A))
                 {
@@ -33,6 +47,25 @@ namespace QFramework.PVZMAX
                 if (Input.GetKeyDown(KeyCode.RightArrow))
                 {
                     this.SendCommand(new ChangePlantPrefabCommand(PlayerNum.Player_2, ActionDir.Right));
+                }
+
+                if (Input.GetKeyDown(KeyCode.J))
+                {
+                    this.SendCommand(new SelectPlantConfirmCommand(PlayerNum.Player_1));
+                }
+                if (Input.GetKeyDown(KeyCode.Keypad1))
+                {
+                    this.SendCommand(new SelectPlantConfirmCommand(PlayerNum.Player_2));
+                }
+            }else if(mode == GameMode.BATTLE)
+            {
+                if (Input.GetKeyDown(KeyCode.W))
+                {
+                    this.SendCommand(new BattlePlantJumpCommand(PlayerNum.Player_1));
+                }
+                if (Input.GetKeyDown(KeyCode.UpArrow))
+                {
+                    this.SendCommand(new BattlePlantJumpCommand(PlayerNum.Player_2));
                 }
             }
         }

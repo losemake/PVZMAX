@@ -14,4 +14,14 @@ namespace QFramework.PVZMAX
             this.playerNum = playerNum;
         }
     }
+
+    public struct GameSelectConfirmEvent
+    {
+        public PlayerNum playerNum;
+
+        public GameSelectConfirmEvent(PlayerNum playerNum)
+        {
+            this.playerNum = playerNum;
+        }
+    }
 }

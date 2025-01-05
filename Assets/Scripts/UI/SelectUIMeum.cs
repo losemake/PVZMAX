@@ -17,19 +17,27 @@ namespace QFramework.PVZMAX
         [Header("#Component")]
         public Button SettingsBtn;
         public Button BackBtn;
+
         public RectTransform ScrollBar_1P;
         public Image Avatar_Image_1P;
         public Image ScrollBar_Image_1P_1;
         public Image ScrollBar_Image_1P_2;
-
         public RectTransform ScrollBar_2P;
         public Image Avatar_Image_2P;
         public Image ScrollBar_Image_2P_1;
         public Image ScrollBar_Image_2P_2;
 
+        public Image SelectBtn_1P_L;
+        public Image SelectBtn_1P_R;
+        public Image SelectBtn_2P_L;
+        public Image SelectBtn_2P_R;
+
         [Header("#Resources")]
         public Sprite[] ScrollBarImages;
         public Sprite[] AvatarImages;
+
+        public Sprite ConfirmBtn_1P;
+        public Sprite ConfirmBtn_2P;
 
         [Header("#Date")]
         [SerializeField]
@@ -69,6 +77,26 @@ namespace QFramework.PVZMAX
                     Avatar_Image_2P.sprite = AvatarImages[(int)this.GetModel<GameModel>().PlantPrefab_2P.Value];
                     ScrollBar_Image_2P_1.sprite = ScrollBarImages[(int)this.GetModel<GameModel>().PlantPrefab_2P.Value];
                     ScrollBar_Image_2P_2.sprite = ScrollBarImages[(int)this.GetModel<GameModel>().PlantPrefab_2P.Value];
+                }
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
+
+            this.RegisterEvent<GameSelectConfirmEvent>(e => 
+            { 
+                if(e.playerNum == PlayerNum.Player_1)
+                {
+                    if(this.GetModel<GameModel>().Player2_Confirm.Value)
+                        this.SendCommand(new LoadScene("GameScene"));
+
+                    SelectBtn_1P_L.sprite = ConfirmBtn_1P;
+                    SelectBtn_1P_R.sprite = ConfirmBtn_1P;
+                }
+                else if (e.playerNum == PlayerNum.Player_2)
+                {
+                    if (this.GetModel<GameModel>().Player1_Confirm.Value)
+                        this.SendCommand(new LoadScene("GameScene"));
+
+                    SelectBtn_2P_L.sprite = ConfirmBtn_2P;
+                    SelectBtn_2P_R.sprite = ConfirmBtn_2P;
                 }
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }

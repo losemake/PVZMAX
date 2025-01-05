@@ -9,7 +9,7 @@ namespace QFramework.PVZMAX
     /// <summary>
     /// 开始UI界面
     /// </summary>
-    public class StartUIMeum : UIGamePanal
+    public class StartUIMeum : UIGamePanal, IController
     {
         [Header("#UIPrefab")]
         public UIGamePanal SettingsUI;
@@ -25,7 +25,7 @@ namespace QFramework.PVZMAX
             {
                 LocalPlayBtn.onClick.AddListener(() =>
                 {
-                    SceneManager.LoadScene("SelectScene");
+                    this.SendCommand(new LoadScene("SelectScene"));
                 });
             }
 
@@ -47,6 +47,11 @@ namespace QFramework.PVZMAX
                     }
                 });
             }
+        }
+
+        public IArchitecture GetArchitecture()
+        {
+            return GameApp.Interface;
         }
     }
 }

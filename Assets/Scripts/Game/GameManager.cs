@@ -34,8 +34,10 @@ namespace QFramework.PVZMAX
     public class GameManager : MonoBehaviour, IController
     {
         public static GameManager instance;
-        
 
+        public BasePlant[] plants;
+        public Transform playerInit_1P;
+        public Transform playerInit_2P;
         void Awake()
         {
             //生成检查，防止多次生成
@@ -75,15 +77,31 @@ namespace QFramework.PVZMAX
             {
                 this.SendCommand(new SetGameModeCommand(GameMode.SELECT));
             }
+            else if(scene.buildIndex == 2)
+            {
+                this.SendCommand(new SetGameModeCommand(GameMode.BATTLE));
+            }
         }
 
         private void InitSelectModeInfo()
         {
-            if(this.GetModel<GameModel>().MGameMode.Value == GameMode.SELECT)
+            GameMode mode = this.GetModel<GameModel>().MGameMode.Value;
+            if (mode == GameMode.SELECT)
             {
                 this.SendCommand(new SelectPlantPrefabCommand(PlayerNum.Player_1, PlantPrefabs.Peashooter));
                 this.SendCommand(new SelectPlantPrefabCommand(PlayerNum.Player_2, PlantPrefabs.Peashooter));
+            }else if(mode == GameMode.BATTLE)
+            {
+                if (playerInit_1P == null) playerInit_1P = GameObject.Find("PlayerInit_1P").transform;
+                if (playerInit_2P == null) playerInit_2P = GameObject.Find("PlayerInit_2P").transform;
+
+                this.SendCommand(new BattleInitCommand());
             }
+        }
+
+        public BasePlant PlantInit(PlantPrefabs index, Vector3 pos, Quaternion rot)
+        {
+            return Instantiate(plants[(int)index], pos, rot);
         }
 
         public IArchitecture GetArchitecture()
