@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3276550291483710969}
   - component: {fileID: 5843302229985518207}
   - component: {fileID: 4287367146334412533}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sunflower
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -35,6 +35,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6488353745061109325}
+  - {fileID: 5937678220592565019}
+  - {fileID: 1746477308701832243}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5638811362857780763
@@ -193,10 +195,80 @@ MonoBehaviour:
   jumpSpeed: 5
   currentHealth: 0
   maxHealth: 0
+  mButtet: 0
+  attackCooldown: 1.5
+  nextAttackTime: 0
+  sunFxCooldown: 0.2
+  nextSunFxTime: 0
   isRun: 0
+  isEXAttack: 0
   footPoint: {fileID: 6488353745061109325}
   rb: {fileID: 3276550291483710969}
   anim: {fileID: 6156840807872701239}
+  proSunPoint: {fileID: 5937678220592565019}
+  exTextPoint: {fileID: 1746477308701832243}
+--- !u!1 &4873539695413502646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1746477308701832243}
+  m_Layer: 8
+  m_Name: EXText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1746477308701832243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4873539695413502646}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3718028036314314504}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5467652125914177830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5937678220592565019}
+  m_Layer: 8
+  m_Name: ProSunPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5937678220592565019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5467652125914177830}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.05, y: 0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3718028036314314504}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6619637997876261844
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,7 +278,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6488353745061109325}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1951509249484390359}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 151222179000005551}
   - component: {fileID: 2175181285516363562}
   - component: {fileID: 7470151767293881501}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gloomshroom
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -224,7 +224,15 @@ MonoBehaviour:
   jumpSpeed: 5
   currentHealth: 0
   maxHealth: 0
+  mButtet: 0
+  attackCooldown: 0.5
+  nextAttackTime: 0
+  sunFxCooldown: 0.2
+  nextSunFxTime: 0
   isRun: 0
+  isEXAttack: 0
   footPoint: {fileID: 1951509249484390359}
   rb: {fileID: 151222179000005551}
   anim: {fileID: 8259793532564235233}
+  attackRange: 0.8
+  attackBigRange: 1.7

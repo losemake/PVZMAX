@@ -25,7 +25,8 @@ namespace QFramework.PVZMAX
             {
                 LocalPlayBtn.onClick.AddListener(() =>
                 {
-                    this.SendCommand(new LoadScene("SelectScene"));
+                    AudioManager.instance.PlaySfx(SfxType.UIConfirm);
+                    this.SendCommand(new LoadScene("SelectScene")); 
                 });
             }
 
@@ -33,6 +34,7 @@ namespace QFramework.PVZMAX
             {
                 OnlinePlayBtn.onClick.AddListener(() =>
                 {
+                    AudioManager.instance.PlaySfx(SfxType.UIConfirm);
                     Debug.Log("联机游玩开启");
                 });
             }
@@ -43,6 +45,7 @@ namespace QFramework.PVZMAX
                 {
                     if(SettingsUI != null)
                     {
+                        AudioManager.instance.PlaySfx(SfxType.UIConfirm);
                         SettingsUI.OnShow();
                     }
                 });

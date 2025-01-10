@@ -10,14 +10,19 @@ namespace QFramework.PVZMAX
     /// </summary>
     public enum SfxType 
     { 
-        Dead, 
-        Hit, 
-        Levelup = 3, 
-        lose, 
-        Melee, 
-        Range = 7, 
-        Select, 
-        Win 
+        UIConfirm, 
+        UISwitch, 
+        UIWin,
+        PeaBreak,
+        PeaShoot = 6,
+        PeaShootEx = 8,
+        SunExplode, 
+        SunExplodeEx, 
+        SunText, 
+        BubblesShot, 
+        BubblesShotEx, 
+        NutDash,
+        NutExplode
     }
     /// <summary>
     /// “Ù∆µπ‹¿Ì
@@ -125,13 +130,16 @@ namespace QFramework.PVZMAX
                     continue;
 
                 int ranIndex = 0;
-                /*if (type == SfxType.Hit || type == SfxType.Melee)
+                if (type == SfxType.PeaBreak)
+                {
+                    ranIndex = Random.Range(0, 3);
+                }
+                else if (type == SfxType.PeaShoot)
                 {
                     ranIndex = Random.Range(0, 2);
-                }*/
+                }
 
                 channelIndex = loopIndex;
-                Debug.Log(channelIndex);
                 sfxPlayers[loopIndex].clip = sfxClips[(int)type + ranIndex];
                 sfxPlayers[loopIndex].Play();
                 break;

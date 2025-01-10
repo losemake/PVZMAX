@@ -51,6 +51,7 @@ namespace QFramework.PVZMAX
                 {
                     if (SettingsUI != null)
                     {
+                        AudioManager.instance.PlaySfx(SfxType.UIConfirm);
                         SettingsUI.OnShow();
                     }
                 });
@@ -60,6 +61,7 @@ namespace QFramework.PVZMAX
             {
                 BackBtn.onClick.AddListener(() =>
                 {
+                    AudioManager.instance.PlaySfx(SfxType.UISwitch);
                     SceneManager.LoadScene("StartScene");
                 });
             }
@@ -68,12 +70,14 @@ namespace QFramework.PVZMAX
             {
                 if(e.playerNum == PlayerNum.Player_1)
                 {
+                    AudioManager.instance.PlaySfx(SfxType.UISwitch);
                     Avatar_Image_1P.sprite = AvatarImages[(int)this.GetModel<GameModel>().PlantPrefab_1P.Value];
                     ScrollBar_Image_1P_1.sprite = ScrollBarImages[(int)this.GetModel<GameModel>().PlantPrefab_1P.Value];
                     ScrollBar_Image_1P_2.sprite = ScrollBarImages[(int)this.GetModel<GameModel>().PlantPrefab_1P.Value];
                 }
                 else if (e.playerNum == PlayerNum.Player_2)
                 {
+                    AudioManager.instance.PlaySfx(SfxType.UISwitch);
                     Avatar_Image_2P.sprite = AvatarImages[(int)this.GetModel<GameModel>().PlantPrefab_2P.Value];
                     ScrollBar_Image_2P_1.sprite = ScrollBarImages[(int)this.GetModel<GameModel>().PlantPrefab_2P.Value];
                     ScrollBar_Image_2P_2.sprite = ScrollBarImages[(int)this.GetModel<GameModel>().PlantPrefab_2P.Value];
@@ -84,7 +88,8 @@ namespace QFramework.PVZMAX
             { 
                 if(e.playerNum == PlayerNum.Player_1)
                 {
-                    if(this.GetModel<GameModel>().Player2_Confirm.Value)
+                    AudioManager.instance.PlaySfx(SfxType.UIConfirm);
+                    if (this.GetModel<GameModel>().Player2_Confirm.Value)
                         this.SendCommand(new LoadScene("GameScene"));
 
                     SelectBtn_1P_L.sprite = ConfirmBtn_1P;
@@ -92,6 +97,7 @@ namespace QFramework.PVZMAX
                 }
                 else if (e.playerNum == PlayerNum.Player_2)
                 {
+                    AudioManager.instance.PlaySfx(SfxType.UIConfirm);
                     if (this.GetModel<GameModel>().Player1_Confirm.Value)
                         this.SendCommand(new LoadScene("GameScene"));
 

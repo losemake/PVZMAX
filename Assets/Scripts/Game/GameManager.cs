@@ -7,16 +7,6 @@ using UnityEngine.SceneManagement;
 
 namespace QFramework.PVZMAX 
 {
-    
-    public enum PlantPrefabs
-    {
-        Peashooter,
-        Sunflower,
-        Gloomshroom,
-        Nut,
-        END
-    }
-
     public enum GameMode 
     {
         START,
@@ -34,6 +24,8 @@ namespace QFramework.PVZMAX
     public class GameManager : MonoBehaviour, IController
     {
         public static GameManager instance;
+
+        public float gameTime;
 
         public BasePlant[] plants;
         public Transform playerInit_1P;
@@ -62,6 +54,11 @@ namespace QFramework.PVZMAX
         {
             SceneManager.sceneLoaded += SceneLoaded;
         }
+
+        void Update()
+        {
+            gameTime += Time.deltaTime;
+        }
         void OnDestroy()
         {
             SceneManager.sceneLoaded -= SceneLoaded;
@@ -88,10 +85,12 @@ namespace QFramework.PVZMAX
             GameMode mode = this.GetModel<GameModel>().MGameMode.Value;
             if (mode == GameMode.SELECT)
             {
+                gameTime = 0.0f;
                 this.SendCommand(new SelectPlantPrefabCommand(PlayerNum.Player_1, PlantPrefabs.Peashooter));
                 this.SendCommand(new SelectPlantPrefabCommand(PlayerNum.Player_2, PlantPrefabs.Peashooter));
             }else if(mode == GameMode.BATTLE)
             {
+                gameTime = 0.0f;
                 if (playerInit_1P == null) playerInit_1P = GameObject.Find("PlayerInit_1P").transform;
                 if (playerInit_2P == null) playerInit_2P = GameObject.Find("PlayerInit_2P").transform;
 

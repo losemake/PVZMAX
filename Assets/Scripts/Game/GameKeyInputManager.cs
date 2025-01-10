@@ -59,6 +59,7 @@ namespace QFramework.PVZMAX
                 }
             }else if(mode == GameMode.BATTLE)
             {
+                // 跳跃指令
                 if (Input.GetKeyDown(KeyCode.W))
                 {
                     this.SendCommand(new BattlePlantJumpCommand(PlayerNum.Player_1));
@@ -66,6 +67,24 @@ namespace QFramework.PVZMAX
                 if (Input.GetKeyDown(KeyCode.UpArrow))
                 {
                     this.SendCommand(new BattlePlantJumpCommand(PlayerNum.Player_2));
+                }
+                // 攻击指令
+                if (Input.GetKeyDown(KeyCode.J))
+                {
+                    this.SendCommand(new BattlePlantFireCommand(PlayerNum.Player_1));
+                }
+                if (Input.GetKeyDown(KeyCode.Keypad1))
+                {
+                    this.SendCommand(new BattlePlantFireCommand(PlayerNum.Player_2));
+                }
+                // 技能指令
+                if (Input.GetKeyDown(KeyCode.K))
+                {
+                    this.SendCommand(new BattlePlantSkillCommand(PlayerNum.Player_1));
+                }
+                if (Input.GetKeyDown(KeyCode.Keypad2))
+                {
+                    this.SendCommand(new BattlePlantSkillCommand(PlayerNum.Player_2));
                 }
             }
         }

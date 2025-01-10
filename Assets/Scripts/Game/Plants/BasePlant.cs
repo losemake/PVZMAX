@@ -5,6 +5,14 @@ using UnityEngine;
 
 namespace QFramework.PVZMAX 
 {
+    public enum PlantPrefabs
+    {
+        Peashooter,
+        Sunflower,
+        Gloomshroom,
+        Nut,
+        END
+    }
     public abstract class BasePlant : MonoBehaviour
     {
         [Header("#BaseDate")]
@@ -17,8 +25,18 @@ namespace QFramework.PVZMAX
         public float currentHealth;
         public float maxHealth;
 
+        [Header("#FireDate")]
+        public BulletPrefabs mButtet;
+        public float attackCooldown;
+        public float nextAttackTime;
+
+        [Header("#FireDate")]
+        public float sunFxCooldown;
+        public float nextSunFxTime;
+
         [Header("#State")]
         public bool isRun;
+        public bool isEXAttack;
 
         [Header("#OffsetPoint")]
         public Transform footPoint;
@@ -32,6 +50,14 @@ namespace QFramework.PVZMAX
             if (Mathf.Abs(rb.velocity.x) >= 0.05f)
             {
                 isRun = true;
+
+                if (nextSunFxTime <= GameManager.instance.gameTime)
+                {
+                    nextSunFxTime = GameManager.instance.gameTime + sunFxCooldown;
+
+                    GameObject runFx = PoolManager.instance.Get((int)PerfabsName.RunFx);
+                    runFx.GetComponent<Effect>().Init(footPoint.transform.position, footPoint.transform.rotation);
+                }
             }
             else
             {
@@ -51,6 +77,9 @@ namespace QFramework.PVZMAX
                 if (raycastall.Length > 0)
                 {
                     jumpTime = maxJumpTime;
+
+                    GameObject fallFx = PoolManager.instance.Get((int)PerfabsName.FallFx);
+                    fallFx.GetComponent<Effect>().Init(footPoint.transform.position, footPoint.transform.rotation);
                 }
             }
         }
@@ -61,12 +90,9 @@ namespace QFramework.PVZMAX
             Gizmos.DrawWireCube(footPoint.position, new Vector3(0.4f, 0.1f, 0.1f));
         }
         
-        public void Move(float dir)
+        public virtual void Move(float dir)
         {
-            if (Mathf.Abs(rb.velocity.x) >= 0.001f && Mathf.Sign(rb.velocity.x) != transform.forward.z)
-            {
-                transform.Rotate(new Vector3(0.0f, 180.0f, 0.0f));
-            }
+            TurnTo();
 
             Vector2 force = new Vector2(moveSpeed * dir, 0.0f);
 
@@ -77,9 +103,23 @@ namespace QFramework.PVZMAX
         {
             if(jumpTime > 0)
             {
+                if(jumpTime == maxJumpTime)
+                {
+                    GameObject jumpFx = PoolManager.instance.Get((int)PerfabsName.JumpFx);
+                    jumpFx.GetComponent<Effect>().Init(footPoint.transform.position, footPoint.transform.rotation);
+                }
+                    
                 jumpTime--;
                 Vector2 impulse = new Vector2(0.0f, jumpSpeed);
                 Impulse(impulse);
+            }
+        }
+
+        public virtual void TurnTo()
+        {
+            if (Mathf.Abs(rb.velocity.x) >= 0.001f && Mathf.Sign(rb.velocity.x) != transform.forward.z)
+            {
+                transform.Rotate(new Vector3(0.0f, 180.0f, 0.0f));
             }
         }
         public virtual void Fire() { }

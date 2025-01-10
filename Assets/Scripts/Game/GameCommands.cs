@@ -134,7 +134,7 @@ namespace QFramework.PVZMAX
         {
             this.GetModel<GameModel>().Player1 = GameManager.instance.PlantInit(this.GetModel<GameModel>().PlantPrefab_1P.Value, 
                                                  GameManager.instance.playerInit_1P.position, GameManager.instance.playerInit_1P.rotation);
-            this.GetModel<GameModel>().Player2 = GameManager.instance.PlantInit(this.GetModel<GameModel>().PlantPrefab_1P.Value,
+            this.GetModel<GameModel>().Player2 = GameManager.instance.PlantInit(this.GetModel<GameModel>().PlantPrefab_2P.Value,
                                                  GameManager.instance.playerInit_2P.position, GameManager.instance.playerInit_2P.rotation);
         }
     }
@@ -178,6 +178,48 @@ namespace QFramework.PVZMAX
             else if (num == PlayerNum.Player_2)
             {
                 this.GetModel<GameModel>().Player2.Jump();
+            }
+        }
+    }
+
+    public class BattlePlantFireCommand : AbstractCommand
+    {
+        private readonly PlayerNum num;
+
+        public BattlePlantFireCommand(PlayerNum num)
+        {
+            this.num = num;
+        }
+        protected override void OnExecute()
+        {
+            if (num == PlayerNum.Player_1)
+            {
+                this.GetModel<GameModel>().Player1.Fire();
+            }
+            else if (num == PlayerNum.Player_2)
+            {
+                this.GetModel<GameModel>().Player2.Fire();
+            }
+        }
+    }
+
+    public class BattlePlantSkillCommand : AbstractCommand
+    {
+        private readonly PlayerNum num;
+
+        public BattlePlantSkillCommand(PlayerNum num)
+        {
+            this.num = num;
+        }
+        protected override void OnExecute()
+        {
+            if (num == PlayerNum.Player_1)
+            {
+                this.GetModel<GameModel>().Player1.Skill();
+            }
+            else if (num == PlayerNum.Player_2)
+            {
+                this.GetModel<GameModel>().Player2.Skill();
             }
         }
     }
