@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 54ced9a5dabee0a4eb72f34695c97156
+guid: 14f7853309ea729468fbe029463233dd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8462043573675907073
-    second: buff_box_blue_3_0
+      213: -5434094310243622409
+    second: NormalMap_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: buff_box_blue_3_0
+      name: NormalMap_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 80
-        height: 80
+        width: 2000
+        height: 745
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10854d2ebc73f6570800000000000000
-      internalID: 8462043573675907073
+      spriteID: 7f125f114083694b0800000000000000
+      internalID: -5434094310243622409
       vertices: []
       indices: 
       edges: []
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      buff_box_blue_3_0: 8462043573675907073
+      NormalMap_0: -5434094310243622409
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
