@@ -1,8 +1,23 @@
 
+using System.Diagnostics;
 using UnityEngine.SceneManagement;
 
 namespace QFramework.PVZMAX
 {
+    public class ChangeBgmCommand : AbstractCommand
+    {
+        private readonly BgmType bgmType;
+
+        public ChangeBgmCommand(BgmType Type)
+        {
+            this.bgmType = Type;
+        }
+
+        protected override void OnExecute()
+        {
+            AudioManager.instance.SetBgm(bgmType);
+        }
+    }
     public class LoadScene : AbstractCommand 
     {
         private readonly string name;
@@ -136,6 +151,14 @@ namespace QFramework.PVZMAX
                                                  GameManager.instance.playerInit_1P.position, GameManager.instance.playerInit_1P.rotation);
             this.GetModel<GameModel>().Player2 = GameManager.instance.PlantInit(this.GetModel<GameModel>().PlantPrefab_2P.Value,
                                                  GameManager.instance.playerInit_2P.position, GameManager.instance.playerInit_2P.rotation);
+
+
+            this.SendEvent(new GameUIHeaderInit(PlayerNum.Player_1, this.GetModel<GameModel>().PlantPrefab_1P.Value));
+            this.SendEvent(new GameUIHeaderInit(PlayerNum.Player_2, this.GetModel<GameModel>().PlantPrefab_2P.Value));
+
+            this.SendEvent<ChangeHealthEvent>();
+            this.SendEvent<ChangeEnergyEvent>();
+            this.SendEvent<ChangeElemEnergyEvent>();
         }
     }
 
@@ -154,9 +177,11 @@ namespace QFramework.PVZMAX
             if (num == PlayerNum.Player_1)
             {
                 this.GetModel<GameModel>().Player1.Move(dir);
+                this.GetModel<GameModel>().Player1.TurnTo(dir);
             }else if (num == PlayerNum.Player_2)
             {
                 this.GetModel<GameModel>().Player2.Move(dir);
+                this.GetModel<GameModel>().Player2.TurnTo(dir);
             }
         }
     }
@@ -221,6 +246,14 @@ namespace QFramework.PVZMAX
             {
                 this.GetModel<GameModel>().Player2.Skill();
             }
+        }
+    }
+
+    public class SceneStateChangeCommand : AbstractCommand
+    {
+        protected override void OnExecute()
+        {
+            this.SendEvent<ChangeSceneStateEvent>();
         }
     }
 }

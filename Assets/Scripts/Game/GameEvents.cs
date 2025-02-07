@@ -1,9 +1,7 @@
 namespace QFramework.PVZMAX
 {
-    public struct GameModeChangedEvent
-    {
-
-    }
+    public struct GameModeChangedEvent { }
+    
 
     public struct GameSelectEvent
     {
@@ -24,4 +22,21 @@ namespace QFramework.PVZMAX
             this.playerNum = playerNum;
         }
     }
+
+    public struct GameUIHeaderInit 
+    {
+        public PlayerNum playerNum;
+        public PlantPrefabs plant;
+
+        public GameUIHeaderInit(PlayerNum playerNum, PlantPrefabs plant)
+        {
+            this.playerNum = playerNum;
+            this.plant = plant;
+        }
+    }
+
+    public struct ChangeSceneStateEvent { }
+    public struct ChangeHealthEvent { }
+    public struct ChangeEnergyEvent { }
+    public struct ChangeElemEnergyEvent { }
 }

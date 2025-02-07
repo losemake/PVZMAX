@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
 using static UnityEngine.GraphicsBuffer;
 
 namespace QFramework.PVZMAX
@@ -18,15 +19,18 @@ namespace QFramework.PVZMAX
     }
     public abstract class BaseBullet : MonoBehaviour
     {
+        [Header("#Component")]
+        public Animator anim;
+
         [Header("#BaseDate")]
         public MovementMode mode;
         protected GameObject sender;
         [SerializeField] protected Vector3 moveSpeed;
         public Vector3 curMoveSpeed;
+        public ElemType type;
 
-        [Header("#Component")]
-        public Animator anim;
-
+        public float damage;
+        public float force;
         protected void Update()
         {
             Move();
@@ -40,6 +44,8 @@ namespace QFramework.PVZMAX
             
             curMoveSpeed = moveSpeed;
             curMoveSpeed.x *= sender.transform.forward.z;
+
+            this.type = ElemType.None;
         }
 
         public virtual void Init(MovementMode mode, GameObject sender, Vector3 pos, Quaternion rot)
@@ -51,6 +57,8 @@ namespace QFramework.PVZMAX
 
             curMoveSpeed = moveSpeed;
             curMoveSpeed.x *= sender.transform.forward.z;
+
+            this.type = ElemType.None;
         }
 
         public virtual void Init(MovementMode mode, GameObject sender, float other)
@@ -59,6 +67,26 @@ namespace QFramework.PVZMAX
             this.sender = sender;
             transform.position = sender.transform.position;
             transform.rotation = sender.transform.rotation;
+
+            this.type = ElemType.None;
+        }
+
+        public virtual void Init(MovementMode mode, GameObject sender, ElemType type)
+        {
+            this.Init(mode, sender);
+            this.type = type;
+        }
+
+        public virtual void Init(MovementMode mode, GameObject sender, Vector3 pos, Quaternion rot, ElemType type)
+        {
+            this.Init(mode, sender, pos, rot);
+            this.type = type;
+        }
+
+        public virtual void Init(MovementMode mode, GameObject sender, float other, ElemType type)
+        {
+            this.Init(mode, sender, other);
+            this.type = type;
         }
         public void Destroy()
         {

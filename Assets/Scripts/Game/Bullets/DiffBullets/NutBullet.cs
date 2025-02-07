@@ -21,19 +21,52 @@ namespace QFramework.PVZMAX
             face = sender.transform.forward.z;
             curMoveSpeed.x = 0.0f;
         }
+
+        public override void Init(MovementMode mode, GameObject sender, ElemType type)
+        {
+            base.Init(mode, sender, type);
+            face = sender.transform.forward.z;
+            curMoveSpeed.x = 0.0f;
+
+            switch (this.type)
+            {
+                case ElemType.Wind:
+                    curMoveSpeed = curMoveSpeed * 1.2f;
+                    break;
+                case ElemType.Ice:
+                    curMoveSpeed = curMoveSpeed * 0.9f;
+                    break;
+            }
+        }
+
+        public override void Init(MovementMode mode, GameObject sender, Vector3 pos, Quaternion rot, ElemType type)
+        {
+            base.Init(mode, sender, pos, rot, type);
+            face = sender.transform.forward.z;
+            curMoveSpeed.x = 0.0f;
+
+            switch (this.type)
+            {
+                case ElemType.Wind:
+                    curMoveSpeed = curMoveSpeed * 1.2f;
+                    break;
+                case ElemType.Ice:
+                    curMoveSpeed = curMoveSpeed * 0.9f;
+                    break;
+            }
+        }
+
         protected void OnTriggerExit2D(Collider2D collision)
         {
-            if (!gameObject.active)
+            if (!gameObject.activeSelf)
                 return;
 
             if (collision.CompareTag("Area"))
             {
-                Debug.Log("离开屏幕外");
                 Destroy();
             }
             else if(collision.CompareTag("Platform"))
             {
-                Debug.Log("离开平台");
                 curMoveSpeed = Vector3.zero;
                 curMoveSpeed.y = moveSpeed.y;
             }
@@ -42,7 +75,6 @@ namespace QFramework.PVZMAX
         {
             if (collision.CompareTag("Platform"))
             {
-                Debug.Log("碰撞平台");
                 curMoveSpeed = Vector3.zero;
                 curMoveSpeed.x = moveSpeed.x * face;
             }
@@ -50,7 +82,40 @@ namespace QFramework.PVZMAX
             {
                 if (sender != collision.gameObject)
                 {
-                    Debug.Log("碰撞玩家");
+                    BasePlant plant = collision.gameObject.GetComponent<BasePlant>();
+                    if (plant != null)
+                    {
+                        plant.SetHealth(-damage);
+
+                        Vector2 dir = collision.transform.position - transform.position;
+                        if(curMoveSpeed.x == 0) dir.x = 0;
+                        if(curMoveSpeed.y == 0) dir.y = 0;
+                        plant.Impulse(dir.normalized * force);
+
+                        switch (this.type)
+                        {
+                            case ElemType.Wind:
+                                plant.Impulse(dir.normalized * force);
+                                break;
+                            case ElemType.Water:
+                                plant.ConsumeElemEnergy(plant.maxElemEnergy / 4);
+                                break;
+                            case ElemType.Fire:
+                                plant.SetHealth(-10);
+                                break;
+                            case ElemType.Thunder:
+                                plant.SetEnergy(-30);
+                                break;
+                            case ElemType.Ice:
+                                SpeedBuff buff = new SpeedBuff();
+                                buff.Init(collision.gameObject, -2.0f);
+                                BuffManager.instance.AddBuff(buff);
+                                break;
+                            case ElemType.Flame:
+                                plant.SetHealth(-30);
+                                break;
+                        }
+                    }
                     Destroy();
                 }
             }

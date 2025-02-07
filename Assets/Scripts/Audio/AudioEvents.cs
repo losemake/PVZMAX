@@ -1,12 +1,7 @@
 namespace QFramework.PVZMAX
 {
-    public struct AudioBgmVolumeChangedEvent
-    {
+    public struct AudioBgmVolumeChangedEvent { }
 
-    }
+    public struct AudioSfxVolumeChangedEvent { }
 
-    public struct AudioSfxVolumeChangedEvent
-    {
-
-    }
 }

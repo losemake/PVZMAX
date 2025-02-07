@@ -10,36 +10,50 @@ namespace QFramework.PVZMAX
         public float explodeRange;
         public override void Fire()
         {
-            
             if (nextAttackTime <= GameManager.instance.gameTime && !isEXAttack)
             {
-                Debug.Log("坚果攻击");
-
                 nextAttackTime = GameManager.instance.gameTime + attackCooldown;
                 ShooterNut();
+
+                this.SetEnergy(5);
             }
         }
 
         public override void Skill()
         {
-            Debug.Log("坚果大招");
             if (!isEXAttack)
             {
+                if (currentEnergy < maxEnergy)
+                    return;
+                this.SetEnergy(-maxEnergy);
+
                 isEXAttack = true;
                 anim.SetBool("IsEXAttack", isEXAttack);
             }
         }
         public void ShooterNut()
         {
-            GameObject pea = PoolManager.instance.Get((int)PerfabsName.NutBullet);
-            pea.GetComponent<BaseBullet>().Init(MovementMode.Agravity, gameObject);
+            GameObject nut = PoolManager.instance.Get((int)PerfabsName.NutBullet);
 
+            if (elemType == ElemType.None)
+            {
+                nut.GetComponent<BaseBullet>().Init(MovementMode.Agravity, gameObject);
+            }
+            else
+            {
+                if (curElemEnergy >= maxElemEnergy / 4)
+                {
+                    nut.GetComponent<BaseBullet>().Init(MovementMode.Agravity, gameObject, elemType);
+                    ConsumeElemEnergy(maxElemEnergy / 4);
+                }
+            }
+                
             AudioManager.instance.PlaySfx(SfxType.NutDash);
         }
         public void ExplodeAttack()
         {
-            GameObject pea = PoolManager.instance.Get((int)PerfabsName.NutExplode);
-            pea.GetComponent<BaseBullet>().Init(MovementMode.None, gameObject, explodeRange);
+            GameObject explode = PoolManager.instance.Get((int)PerfabsName.NutExplode);
+            explode.GetComponent<BaseBullet>().Init(MovementMode.None, gameObject, explodeRange);
         }
 
         public void ExplodeAudio()
@@ -51,7 +65,6 @@ namespace QFramework.PVZMAX
         {
             isEXAttack = false;
             anim.SetBool("IsEXAttack", isEXAttack);
-            Debug.Log("关闭动画");
         }
     }
 

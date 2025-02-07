@@ -31,26 +31,33 @@ namespace QFramework.PVZMAX
             {
                 if (target.transform.gameObject == sender)
                     continue;
-                Debug.Log(target.transform.name);
+
+                BasePlant plant = target.transform.gameObject.GetComponent<BasePlant>();
+                if (plant != null)
+                {
+                    plant.SetHealth(-damage);
+
+                    Vector2 dir = target.transform.position - transform.position;
+                    plant.Impulse(dir.normalized * force);
+                }
             }
         }
 
         protected void OnTriggerExit2D(Collider2D collision)
         {
-            if (!gameObject.active || !collision.CompareTag("Area"))
+            if (!gameObject.activeSelf || !collision.CompareTag("Area"))
                 return;
-            Debug.Log("离开屏幕外");
+            
             Destroy();
         }
         protected void OnTriggerEnter2D(Collider2D collision)
         {
             if (collision.CompareTag("Platform"))
             {
-                Debug.Log("碰撞平台");
                 if (anim != null)
                 {
-                    anim.SetTrigger("Break");
                     isBreak = true;
+                    anim.SetTrigger("Break");
                 }
                 AudioManager.instance.PlaySfx(SfxType.SunExplodeEx);
             }
@@ -58,11 +65,10 @@ namespace QFramework.PVZMAX
             {
                 if (sender != collision.gameObject)
                 {
-                    Debug.Log("碰撞玩家");
                     if (anim != null)
                     {
-                        anim.SetTrigger("Break");
                         isBreak = true;
+                        anim.SetTrigger("Break");
                     }
                     AudioManager.instance.PlaySfx(SfxType.SunExplodeEx);
                 }

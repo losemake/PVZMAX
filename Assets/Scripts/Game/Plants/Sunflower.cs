@@ -13,18 +13,21 @@ namespace QFramework.PVZMAX
         {
             if (nextAttackTime <= GameManager.instance.gameTime && !isEXAttack)
             {
-                Debug.Log("向日葵攻击");
-
                 nextAttackTime = GameManager.instance.gameTime + attackCooldown;
                 ShooterSun();
+
+                this.SetEnergy(10);
             }
         }
 
         public override void Skill()
         {
-            Debug.Log("向日葵大招");
             if (!isEXAttack)
             {
+                if (currentEnergy < maxEnergy / 2)
+                    return;
+                this.SetEnergy(-maxEnergy / 2);
+
                 isEXAttack = true;
                 anim.SetBool("IsEXAttack", isEXAttack);
             }
@@ -32,16 +35,27 @@ namespace QFramework.PVZMAX
 
         public void ShooterSun()
         {
-            GameObject pea = PoolManager.instance.Get((int)PerfabsName.Sun);
-            pea.GetComponent<BaseBullet>().Init(MovementMode.Gravity, gameObject, proSunPoint.position, gameObject.transform.rotation);
+            GameObject sun = PoolManager.instance.Get((int)PerfabsName.Sun);
+            if (elemType == ElemType.None)
+            {
+                sun.GetComponent<BaseBullet>().Init(MovementMode.Gravity, gameObject, proSunPoint.position, gameObject.transform.rotation);
+            }
+            else
+            {
+                if (curElemEnergy >= maxElemEnergy / 4)
+                {
+                    sun.GetComponent<BaseBullet>().Init(MovementMode.Gravity, gameObject, proSunPoint.position, gameObject.transform.rotation, elemType);
+                    ConsumeElemEnergy(maxElemEnergy / 4);
+                }
+            }
         }
 
         public void CallBigSun()
         {
-            GameObject pea = PoolManager.instance.Get((int)PerfabsName.BigSun);
+            GameObject bigSun = PoolManager.instance.Get((int)PerfabsName.BigSun);
             Vector3 point = gameObject.transform.position;
             point.y += 10.0f;
-            pea.GetComponent<BaseBullet>().Init(MovementMode.Agravity, gameObject, point, gameObject.transform.rotation);
+            bigSun.GetComponent<BaseBullet>().Init(MovementMode.Agravity, gameObject, point, gameObject.transform.rotation);
 
             GameObject textFx = PoolManager.instance.Get((int)PerfabsName.SunTextFx);
             textFx.GetComponent<Effect>().Init(exTextPoint.transform.position, exTextPoint.transform.rotation);

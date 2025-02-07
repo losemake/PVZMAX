@@ -191,12 +191,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   jumpTime: 0
-  maxJumpTime: 2
-  jumpSpeed: 5
-  currentHealth: 0
-  maxHealth: 0
+  maxJumpTime: 3
+  jumpSpeed: 4
+  currentHealth: 180
+  maxHealth: 180
+  currentEnergy: 0
+  maxEnergy: 100
+  elemType: 0
+  curElemEnergy: 0
+  maxElemEnergy: 100
   mButtet: 0
-  attackCooldown: 1.5
+  attackCooldown: 1.2
   nextAttackTime: 0
   sunFxCooldown: 0.2
   nextSunFxTime: 0
@@ -205,6 +210,7 @@ MonoBehaviour:
   footPoint: {fileID: 6488353745061109325}
   rb: {fileID: 3276550291483710969}
   anim: {fileID: 6156840807872701239}
+  sr: {fileID: 0}
   proSunPoint: {fileID: 5937678220592565019}
   exTextPoint: {fileID: 1746477308701832243}
 --- !u!1 &4873539695413502646

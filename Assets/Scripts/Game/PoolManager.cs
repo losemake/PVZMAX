@@ -17,6 +17,15 @@ namespace QFramework.PVZMAX
         JumpFx,
         FallFx,
         SunTextFx,
+        BlueBuff,
+        PinkBuff,
+        YellowBuff,
+        WindBuff,
+        WaterBuff,
+        FireBuff,
+        ThunderBuff,
+        IceBuff,
+        FlameBuff,
     }
 
     public class PoolManager : MonoBehaviour

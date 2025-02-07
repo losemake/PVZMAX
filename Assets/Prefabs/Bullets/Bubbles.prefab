@@ -120,6 +120,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 111b75e1b70ddaa4e9f384406ac4878e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 5421092730830371724}
   mode: 2
   moveSpeed: {x: 0, y: 0, z: 0}
-  anim: {fileID: 5421092730830371724}
+  curMoveSpeed: {x: 0, y: 0, z: 0}
+  damage: 10
+  force: -1

@@ -222,8 +222,13 @@ MonoBehaviour:
   jumpTime: 0
   maxJumpTime: 2
   jumpSpeed: 5
-  currentHealth: 0
-  maxHealth: 0
+  currentHealth: 300
+  maxHealth: 300
+  currentEnergy: 0
+  maxEnergy: 50
+  elemType: 0
+  curElemEnergy: 0
+  maxElemEnergy: 100
   mButtet: 0
   attackCooldown: 0.5
   nextAttackTime: 0
@@ -234,5 +239,6 @@ MonoBehaviour:
   footPoint: {fileID: 1951509249484390359}
   rb: {fileID: 151222179000005551}
   anim: {fileID: 8259793532564235233}
+  sr: {fileID: 0}
   attackRange: 0.8
   attackBigRange: 1.7

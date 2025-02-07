@@ -20,6 +20,9 @@ namespace QFramework.PVZMAX
             GameMode mode = this.GetModel<GameModel>().MGameMode.Value;
             if (mode == GameMode.BATTLE)
             {
+                if (GameManager.instance.GetSceneState() != SceneState.Game)
+                    return;
+
                 float dirPlayer1 = Input.GetAxis("HorizontalPlayer1");
                 this.SendCommand(new BattlePlantMoveCommand(PlayerNum.Player_1, dirPlayer1));
 
@@ -30,6 +33,7 @@ namespace QFramework.PVZMAX
         void Update()
         {
             GameMode mode = this.GetModel<GameModel>().MGameMode.Value;
+
             if (mode == GameMode.SELECT)
             {
                 if(Input.GetKeyDown(KeyCode.A))
@@ -59,6 +63,9 @@ namespace QFramework.PVZMAX
                 }
             }else if(mode == GameMode.BATTLE)
             {
+                if (GameManager.instance.GetSceneState() != SceneState.Game)
+                    return;
+
                 // Ã¯‘æ÷∏¡Ó
                 if (Input.GetKeyDown(KeyCode.W))
                 {

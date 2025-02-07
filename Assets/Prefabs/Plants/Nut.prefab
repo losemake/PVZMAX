@@ -218,14 +218,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 783e0d75aeae1774695180b6ff1ec526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 9
   jumpTime: 0
   maxJumpTime: 2
   jumpSpeed: 5
-  currentHealth: 0
-  maxHealth: 0
+  currentHealth: 400
+  maxHealth: 400
+  currentEnergy: 0
+  maxEnergy: 100
+  elemType: 0
+  curElemEnergy: 0
+  maxElemEnergy: 100
   mButtet: 0
-  attackCooldown: 0.8
+  attackCooldown: 1.5
   nextAttackTime: 0
   sunFxCooldown: 0.2
   nextSunFxTime: 0
@@ -234,4 +239,5 @@ MonoBehaviour:
   footPoint: {fileID: 6429396156380021217}
   rb: {fileID: -5898813398450374964}
   anim: {fileID: -9135269783031023054}
+  sr: {fileID: 0}
   explodeRange: 1.1

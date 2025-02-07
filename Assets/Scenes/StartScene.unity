@@ -673,7 +673,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c29e392e127ab4a980888c5a533149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgmClip: {fileID: 8300000, guid: 2541ecd2b7ee8e1408ca8c889854dc2e, type: 3}
+  bgmClip:
+  - {fileID: 8300000, guid: 2541ecd2b7ee8e1408ca8c889854dc2e, type: 3}
+  - {fileID: 8300000, guid: cafd703cb79bed7448a58ad21fcde334, type: 3}
   sfxClips:
   - {fileID: 8300000, guid: 68749bc4c32a5b042a113f201aceac45, type: 3}
   - {fileID: 8300000, guid: 58f42f88c18cd0049842a404dd9f5206, type: 3}
@@ -832,6 +834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4aaddde2c26a9141b839dd10b810092, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxGameTime: 300
   gameTime: 0
   plants:
   - {fileID: 1916371226339425843, guid: af98403beecaefd44a07dbe75c9eeaf7, type: 3}

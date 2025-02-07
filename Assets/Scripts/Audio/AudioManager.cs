@@ -6,6 +6,14 @@ using UnityEngine.UI;
 namespace QFramework.PVZMAX
 {
     /// <summary>
+    /// 音乐名称
+    /// </summary>
+    public enum BgmType
+    {
+        MenuBgm,
+        GameBgm,
+    }
+    /// <summary>
     /// 音效名称
     /// </summary>
     public enum SfxType 
@@ -32,8 +40,9 @@ namespace QFramework.PVZMAX
         public static AudioManager instance;
 
         [Header("#BGM")]
-        public AudioClip bgmClip;
+        public AudioClip[] bgmClip;
         AudioSource bgmPlayer;
+        private BgmType bgmType;
 
         [Header("#SFX")]
         public AudioClip[] sfxClips;
@@ -80,10 +89,11 @@ namespace QFramework.PVZMAX
             GameObject bgm = new GameObject("BgmPlayer");
             bgm.transform.parent = transform;
             bgmPlayer = bgm.AddComponent<AudioSource>();
-            bgmPlayer.playOnAwake = false;                      //循环开关
+            bgmPlayer.playOnAwake = false;
             bgmPlayer.loop = true;
             bgmPlayer.volume = mAudioModel.BgmVolume.Value;
-            bgmPlayer.clip = bgmClip;
+            bgmType = BgmType.MenuBgm;
+            bgmPlayer.clip = bgmClip[(int)bgmType];
 
             GameObject sfx = new GameObject("SfxPlayer");
             sfx.transform.parent = transform;
@@ -100,6 +110,16 @@ namespace QFramework.PVZMAX
         public void SetBgmVolume()
         {
             bgmPlayer.volume = mAudioModel.BgmVolume.Value;
+        }
+
+        public void SetBgm(BgmType type)
+        {
+            if (bgmType == type) return;
+
+            bgmType = type;
+            bgmPlayer.clip = bgmClip[(int)bgmType];
+
+            PlayBgm(true);
         }
         public void PlayBgm(bool isPlay)
         {

@@ -15,34 +15,50 @@ namespace QFramework.PVZMAX
         {
             if(nextAttackTime <= GameManager.instance.gameTime && !isEXAttack)
             {
-                Debug.Log("Íã¶¹ÉäÊÖ¹¥»÷");
-                
                 nextAttackTime = GameManager.instance.gameTime + attackCooldown;
                 ShooterPea();
+
+                this.SetEnergy(5);
             }
         }
 
         public override void Skill() 
         {
-            Debug.Log("Íã¶¹ÉäÊÖ´óÕÐ");
             if(!isEXAttack)
             {
+                if (currentEnergy < maxEnergy)
+                    return;
+                this.SetEnergy(-maxEnergy);
+
                 isEXAttack = true;
                 anim.SetBool("IsEXAttack", isEXAttack);
                 Invoke("BackEXAttack", timeDuration);
             }
         }
 
-        public override void TurnTo()
+        public override void TurnTo(float dir)
         {
             if (isEXAttack) return;
-            base.TurnTo();
+            base.TurnTo(dir);
         }
 
         public void ShooterPea()
         {
             GameObject pea = PoolManager.instance.Get((int)PerfabsName.PeaBullet);
-            pea.GetComponent<BaseBullet>().Init(MovementMode.Agravity, gameObject, gunPoint.position, gameObject.transform.rotation);
+
+            if(elemType == ElemType.None)
+            {
+                pea.GetComponent<BaseBullet>().Init(MovementMode.Agravity, gameObject, gunPoint.position, gameObject.transform.rotation);
+            }
+            else
+            {
+                if(curElemEnergy >= maxElemEnergy / 4)
+                {
+                    pea.GetComponent<BaseBullet>().Init(MovementMode.Agravity, gameObject, gunPoint.position, gameObject.transform.rotation, elemType);
+                    ConsumeElemEnergy(maxElemEnergy / 4);
+                }
+            }
+            
             AudioManager.instance.PlaySfx(SfxType.PeaShoot);
         }
 
